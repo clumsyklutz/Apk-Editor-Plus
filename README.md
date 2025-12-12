@@ -1,5 +1,7 @@
 # ApkEditorPlus
 
+![Preview](https://raw.githubusercontent.com/FabioSilva11/Apk-Editor-Plus/master/APKEditor_Preview1.png)
+
 ## 📱 Sobre o Projeto
 
 **ApkEditorPlus** é um projeto **open source** e **decompilado** de editor de APK para Android, desenvolvido em Kotlin. Este projeto foi decompilado e refatorado do código original em Java para uma versão mais moderna e atualizada.
