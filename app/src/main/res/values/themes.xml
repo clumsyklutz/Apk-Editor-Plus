@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ApkEditorPlus" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        
+        <!-- Custom icon attributes -->
+        <item name="iconPrimary">@color/black</item>
+        <item name="iconSecondary">@color/black</item>
+        
+        <!-- Card icon attributes -->
+        <item name="cardIc1">@color/black</item>
+        <item name="cardIc2">@color/black</item>
+        <item name="cardIc3">@color/black</item>
+        <item name="cardIc4">@color/black</item>
+        <item name="cardIc5">@color/black</item>
+        <item name="cardIc6">@color/black</item>
+        <item name="cardIc7">@color/black</item>
+        <item name="cardIc8">@color/black</item>
+        <item name="cardIc9">@color/black</item>
+        <item name="cardIc10">@color/black</item>
+        
+        <!-- Button attributes -->
+        <item name="btnMain">?android:attr/colorPrimary</item>
+        
+        <!-- Dialog attributes -->
+        <item name="dialogBg">?android:attr/colorBackground</item>
+        
+        <!-- Google Button attributes -->
+        <item name="googleButtonSolid">@color/google_button_solid</item>
+        <item name="googleButtonRipple">@color/google_button_ripple</item>
+        <item name="googleButtonRippleOutline">@color/google_button_ripple</item>
+        <item name="googleButtonStroked">@color/google_button_solid</item>
+        
+        <!-- Navigation attributes -->
+        <item name="navRipple">?android:attr/colorControlHighlight</item>
+        <item name="navSolid">?android:attr/colorPrimary</item>
+        <item name="navStroked">?android:attr/colorPrimary</item>
+        <item name="navStroke">?android:attr/colorControlNormal</item>
+        <item name="bottomBar">?android:attr/colorBackground</item>
+        
+        <!-- Popup attributes -->
+        <item name="popupBg">?android:attr/colorBackground</item>
+        
+        <!-- Search attributes -->
+        <item name="searchBox">?android:attr/colorBackground</item>
+
+        <!-- Fade attributes -->
+        <item name="fade">@color/transparent</item>
+
+        <!-- Progress attributes -->
+        <item name="progressHorizontal">?android:attr/colorAccent</item>
+
+        <!-- Text attributes -->
+        <item name="textMedium">?android:attr/textColorSecondary</item>
+        <item name="textSmall">?android:attr/textColorSecondary</item>
+        <item name="windowTitle">?android:attr/textColorPrimary</item>
+
+        <!-- Card attributes -->
+        <item name="card">?android:attr/colorBackground</item>
+        <item name="card1">@color/card_green_light</item>
+        <item name="card2">@color/card_blue_light</item>
+        <item name="card3">@color/card_red_light</item>
+        <item name="card4">@color/card_green_light</item>
+        <item name="card5">@color/card_red_light</item>
+        <item name="card6">@color/card_blue_light</item>
+        <item name="card7">@color/card_green_light</item>
+        <item name="card8">@color/card_red_light</item>
+        <item name="card9">@color/card_blue_light</item>
+        <item name="card10">@color/card_green_light</item>
+
+        <!-- Navigation attributes -->
+        <item name="navActivated">?android:attr/colorAccent</item>
+        <item name="navNormal">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Theme.ApkEditorPlus" parent="Base.Theme.ApkEditorPlus" />
+</resources>

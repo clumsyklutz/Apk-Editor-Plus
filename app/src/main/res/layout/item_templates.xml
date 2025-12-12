@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="https://schemas.android.com/apk/res/MD"
+    android:focusable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="?attr/card"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="?attr/textSmall"
+                android:gravity="center_vertical"
+                android:id="@+id/templates_item_tilte"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="app_name"
+                android:maxLines="1"
+                android:singleLine="false"
+                android:inputType="textMultiLine"/>
+            <TextView
+                android:textSize="14dp"
+                android:textColor="?attr/textMedium"
+                android:ellipsize="none"
+                android:gravity="center_vertical"
+                android:id="@+id/templates_item_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="app_name"
+                android:maxLines="10"
+                android:singleLine="false"
+                android:inputType="textMultiLine"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decode"
+            style="@style/MD.Dialog.Title"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/decode_partial_files"
+        android:text="@string/decode_partial_files"
+        android:drawableLeft="@drawable/ic_decode"
+        android:iconTint="?android:attr/colorControlNormal"
+        style="@style/MD.F"/>
+    <TextView
+        android:id="@+id/decode_all_files"
+        android:text="@string/decode_all_files"
+        android:drawableLeft="@drawable/ic_decode"
+        android:iconTint="?android:attr/colorControlNormal"
+        style="@style/MD.F"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content">
+        <android.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel"
+            style="@style/MD.Button.Borderless.Dialog"/>
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:textSize="14dp"
+            android:textColor="?attr/textSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/from_line_no"
+            android:layout_weight="0.4"/>
+        <EditText
+            android:textSize="14dp"
+            android:textColor="?attr/textMedium"
+            android:id="@+id/et_from"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:textSize="14dp"
+            android:textColor="?attr/textSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/to_line_no"
+            android:layout_weight="0.4"/>
+        <EditText
+            android:textSize="14dp"
+            android:textColor="?attr/textMedium"
+            android:id="@+id/et_to"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:inputType="number"/>
+    </LinearLayout>
+</LinearLayout>
+
+

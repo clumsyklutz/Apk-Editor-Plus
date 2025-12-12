@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?android:attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_scale_fit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fit"
+        android:layout_weight="1"
+        style="@style/MD.Button.Google.Outline"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_scale_100"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="100%"
+        android:layout_weight="1"
+        style="@style/MD.Button.Google.Outline"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_scale_200"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="200%"
+        android:layout_weight="1"
+        style="@style/MD.Button.Google.Outline"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_scale_400"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="400%"
+        android:layout_weight="1"
+        style="@style/MD.Button.Google.Outline"/>
+</LinearLayout>
+
+

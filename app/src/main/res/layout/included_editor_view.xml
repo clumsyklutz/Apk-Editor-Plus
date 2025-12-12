@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/editorView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.gmail.heagoo.neweditor.ObScrollView
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@drawable/coloritem_cc"
+        android:id="@+id/editorScrollview"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/editorLayout"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:textSize="12sp"
+                android:typeface="monospace"
+                android:gravity="top|right"
+                android:id="@+id/lineNumbers"
+                android:padding="2dp"
+                android:focusable="false"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:lineSpacingMultiplier="1.16"/>
+            <View
+                android:id="@+id/divider"
+                android:layout_width="1px"
+                android:layout_height="match_parent"/>
+            <com.gmail.heagoo.neweditor.ObHorizontalScrollView
+                android:id="@+id/hScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+                <com.gmail.heagoo.neweditor.ObEditText
+                    android:textSize="12sp"
+                    android:typeface="monospace"
+                    android:gravity="top|left"
+                    android:id="@+id/editor"
+                    android:padding="2dp"
+                    android:nextFocusRight="@+id/editor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:lineSpacingMultiplier="1.16"
+                    android:inputType="textNoSuggestions"
+                    android:imeOptions="flagNoExtractUi"/>
+            </com.gmail.heagoo.neweditor.ObHorizontalScrollView>
+        </LinearLayout>
+    </com.gmail.heagoo.neweditor.ObScrollView>
+    <include layout="@layout/included_editor_menu"/>
+</LinearLayout>
+
+

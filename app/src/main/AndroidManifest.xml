@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="20221214"
+    android:versionName="4.5.2"
+    package="com.gmail.heagoo.apkeditor.pro">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- Permissão para Android 11+ (API 30+) para gerenciar todos os arquivos -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        android:minSdkVersion="30"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:theme="@style/MD.Dark.NoActionBar"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:requestLegacyExternalStorage="true">
+        <meta-data
+            android:name="heagoo.sdcard_folder"
+            android:value="ApkEditor"/>
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.6"/>
+        <activity
+            android:theme="@style/MD.DayNight.NoActionBar"
+            android:label="@string/app_name"
+            android:name="com.gmail.heagoo.apkeditor.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:exported="true"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
+            android:name="com.gmail.heagoo.apkeditor.MainActivityNew1"
+            android:enabled="true"
+            android:targetActivity="com.gmail.heagoo.apkeditor.MainActivity"
+            android:roundIcon="@mipmap/ic_launcher_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:exported="true"
+            android:label="@string/app_name"
+            android:icon="@drawable/editorpro2"
+            android:name="com.gmail.heagoo.apkeditor.MainActivityNew2"
+            android:enabled="false"
+            android:targetActivity="com.gmail.heagoo.apkeditor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:exported="true"
+            android:label="@string/app_name"
+            android:icon="@drawable/appiconframed"
+            android:name="com.gmail.heagoo.apkeditor.MainActivityNew3"
+            android:enabled="false"
+            android:targetActivity="com.gmail.heagoo.apkeditor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:name="com.gmail.heagoo.apkeditor.ApkInfoActivity"/>
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.ApkInfoExActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.se.SimpleEditActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.CommonEditActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.se.ApkCreateActivity"/>
+        <activity android:name="com.gmail.heagoo.imageviewlib.ViewZipImageActivity"/>
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.ApkComposeActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.FileListActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.UserAppActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.SettingActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.SettingEditorActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.SettingHideActivity"/>
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.TextEditNormalActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.TextEditBigActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.MfSearchRetActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.ApkSearchActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.ColorXmlActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.prj.ProjectListActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.AxmlEditActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.OdexPatchActivity"/>
+        <activity android:name="com.gmail.heagoo.pngeditor.PngEditActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.InfoActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.AboutModActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.TemplatesActivity"/>
+        <service android:name="com.gmail.heagoo.apkeditor.ApkComposeService"/>
+        <service android:name="com.gmail.heagoo.httpserver.HttpService"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.gmail.heagoo.apkeditor.pro.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:name="com.gmail.heagoo.appdm.PrefOverallActivity"/>
+        <activity android:name="com.gmail.heagoo.appdm.PrefDetailActivity"/>
+        <activity android:name="com.gmail.heagoo.neweditor.EditorActivity"/>
+        <activity android:name="com.gmail.heagoo.sqliteutil.SqliteTableListActivity"/>
+        <activity android:name="com.gmail.heagoo.sqliteutil.SqliteTableViewActivity"/>
+        <activity android:name="com.gmail.heagoo.sqliteutil.SqliteRowViewActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.SelectDbActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.VerifyActivity"/>
+        <activity android:name="com.gmail.heagoo.apkeditor.SelectFileActivity"/>
+    </application>
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/apk_head"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include layout="@layout/apk_str"/>
+        <include layout="@layout/apk_res"/>
+        <include layout="@layout/apk_mf"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/layout_loading"
+            android:background="?android:attr/windowBackground"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="14dp"
+                android:id="@+id/tv_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"/>
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:indeterminate="true"
+                android:indeterminateTint="?attr/progressHorizontal"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/apk_nav"/>
+</LinearLayout>
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="14dp"
+        android:textColor="?attr/textMedium"
+        android:id="@+id/tv_filepath"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:focusable="false"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <ProgressBar
+        android:id="@+id/progressbar_loading"
+        android:visibility="gone"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+    <RelativeLayout
+        android:id="@+id/menu_replace"
+        android:background="@drawable/mtrl_ripple_action"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/image_replace"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_replace"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/menu_edit"
+        android:background="@drawable/mtrl_ripple_action"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="4dp">
+        <ImageView
+            android:id="@+id/image_edit"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_eye"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>
+
+

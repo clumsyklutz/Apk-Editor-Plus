@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:scrollbars="vertical|horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_weight="1">
+        <HorizontalScrollView
+            android:scrollbars="vertical|horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+            <TableLayout
+                android:id="@+id/valueTable"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:stretchColumns="*"/>
+        </HorizontalScrollView>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingTop="4dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_prepage"
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pre_page"
+            android:layout_weight="1"
+            style="@style/MD.Button.Google"/>
+        <Button
+            android:id="@+id/button_nextpage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next_page"
+            android:layout_weight="1"
+            style="@style/MD.Button.Google"/>
+    </LinearLayout>
+</LinearLayout>
+
+

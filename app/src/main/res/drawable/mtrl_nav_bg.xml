@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/navRipple">
+    <item>
+        <selector>
+            <item android:state_checked="true">
+                <shape>
+                    <solid android:color="?attr/navSolid"/>
+                    <corners android:radius="25dp"/>
+                    <stroke
+                        android:width="1dp"
+                        android:color="?attr/navStroked"/>
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="?attr/bottomBar"/>
+                    <corners android:radius="25dp"/>
+                    <stroke
+                        android:width="1dp"
+                        android:color="?attr/navStroke"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

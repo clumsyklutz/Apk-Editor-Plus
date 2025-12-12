@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/launcher_shortcut_project"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.gmail.heagoo.apkeditor.pro"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.gmail.heagoo.apkeditor.prj.ProjectListActivity"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/launcher_shortcut_app"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.gmail.heagoo.apkeditor.pro"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.gmail.heagoo.apkeditor.UserAppActivity"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/launcher_shortcut_apk"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.gmail.heagoo.apkeditor.pro"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.gmail.heagoo.apkeditor.FileListActivity"/>
+    </shortcut>
+</shortcuts>

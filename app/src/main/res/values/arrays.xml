@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Certificados para font provider do Google Play Services -->
+    <!-- Valores mínimos apenas para satisfazer o aapt; não insere certificados reais. -->
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>dev_cert_placeholder</item>
+    </string-array>
+
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>prod_cert_placeholder</item>
+    </string-array>
+
+    <!-- Preferência: idioma da interface -->
+    <string-array name="language_key">
+        <item>System default</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="language_value">
+        <item>system</item>
+        <item>en</item>
+    </string-array>
+
+    <!-- Preferência: ordem da lista de apps -->
+    <string-array name="order_key">
+        <item>By name</item>
+        <item>By install time</item>
+    </string-array>
+
+    <string-array name="order_value">
+        <item>name</item>
+        <item>time</item>
+    </string-array>
+
+    <!-- Preferência: modo de decodificação -->
+    <string-array name="decode_mode_key">
+        <item>Auto</item>
+        <item>Full decode</item>
+        <item>Fast decode</item>
+    </string-array>
+
+    <string-array name="decode_mode_value">
+        <item>auto</item>
+        <item>full</item>
+        <item>fast</item>
+    </string-array>
+
+    <!-- Preferência: versões de assinatura (V1/V2, etc.) -->
+    <string-array name="sign_names">
+        <item>V1 (JAR signature)</item>
+        <item>V2 (Full APK signature)</item>
+    </string-array>
+
+    <string-array name="sign_values">
+        <item>v1</item>
+        <item>v2</item>
+    </string-array>
+
+    <!-- Valores padrão para as versões de assinatura -->
+    <string-array name="sign_defaults">
+        <item>v1</item>
+        <item>v2</item>
+    </string-array>
+
+    <!-- Preferência: keystore usado para assinar -->
+    <string-array name="signer_key">
+        <item>Default keystore</item>
+        <item>Custom keystore</item>
+    </string-array>
+
+    <string-array name="signer_value_dont_translate">
+        <item>default</item>
+        <item>custom</item>
+    </string-array>
+
+    <!-- Preferência: formato do nome do APK de saída -->
+    <string-array name="output_apkname_key">
+        <item>Package name only</item>
+        <item>Package + version</item>
+    </string-array>
+
+    <string-array name="output_apkname_value">
+        <item>package</item>
+        <item>package_version</item>
+    </string-array>
+
+    <!-- Preferência: renomear arquivos extraídos -->
+    <string-array name="file_extract_rename_key">
+        <item>No rename</item>
+        <item>Auto rename duplicates</item>
+    </string-array>
+
+    <string-array name="file_extract_rename_value">
+        <item>none</item>
+        <item>auto</item>
+    </string-array>
+
+</resources>
+
+

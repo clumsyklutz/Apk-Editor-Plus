@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:layout="@layout/mtrl_pref_item"
+        android:title="@string/line_wrap"
+        android:key="LineWrap"/>
+    <SwitchPreference
+        android:layout="@layout/mtrl_pref_item"
+        android:title="@string/show_line_numbers"
+        android:key="ShowLineNumbers"/>
+    <EditTextPreference
+        android:layout="@layout/mtrl_pref_item"
+        android:title="@string/font_size"
+        android:key="FontSize"
+        android:inputType="number"/>
+    <EditTextPreference
+        android:layout="@layout/mtrl_pref_item"
+        android:title="@string/when_use_bfe"
+        android:key="BigFileSize"
+        android:dialogMessage="@string/use_bfe_message"
+        android:inputType="number"/>
+    <SwitchPreference
+        android:layout="@layout/mtrl_pref_item"
+        android:title="@string/symbol_input"
+        android:key="SymbolInput"
+        android:summary="@string/symbol_input_summary"/>
+    <Preference
+        android:layout="@layout/mtrl_pref_separator"
+        android:selectable="false"/>
+    <PreferenceCategory
+        android:layout="@layout/mtrl_pref_category"
+        android:title="@string/appearance"
+        android:key="Appearance">
+        <SwitchPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="@string/colors"
+            android:key="custom_colors"/>
+        <Preference
+            android:layout="@layout/mtrl_pref_separator"
+            android:selectable="false"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="@string/background"
+            android:key="editor_bg"
+            android:defaultValue="0xff002b36"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Line Numbers"
+            android:key="editor_numbers"
+            android:defaultValue="0xfffdf6e3"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 1"
+            android:key="syntax_1"
+            android:defaultValue="0xff859900"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 2"
+            android:key="syntax_2"
+            android:defaultValue="0xffb58900"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 3"
+            android:key="syntax_3"
+            android:defaultValue="0xff2aa198"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 4"
+            android:key="syntax_4"
+            android:defaultValue="0xff93a1a1"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 5"
+            android:key="syntax_5"
+            android:defaultValue="0xffcb4b16"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 6"
+            android:key="syntax_6"
+            android:defaultValue="0xff586e75"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 7"
+            android:key="syntax_7"
+            android:defaultValue="0xffdc322f"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 8"
+            android:key="syntax_8"
+            android:defaultValue="0xff268bd2"/>
+        <ru.zeratul.preference.ColorPreference
+            android:layout="@layout/mtrl_pref_item"
+            android:title="Syntax Color 9"
+            android:key="syntax_9"
+            android:defaultValue="0xff93a1a1"/>
+    </PreferenceCategory>
+</PreferenceScreen>

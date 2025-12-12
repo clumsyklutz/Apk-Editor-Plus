@@ -1,0 +1,9 @@
+package android.arch.lifecycle
+
+import android.arch.lifecycle.Lifecycle
+import android.support.annotation.RestrictTo
+
+@RestrictTo({RestrictTo.Scope.LIBRARY_GROUP})
+public interface GeneratedAdapter {
+    Unit callMethods(LifecycleOwner lifecycleOwner, Lifecycle.Event event, Boolean z, MethodCallsLogger methodCallsLogger)
+}

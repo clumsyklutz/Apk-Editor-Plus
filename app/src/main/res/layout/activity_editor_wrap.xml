@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/header_layout"
+        android:background="?android:attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_marginRight="8dp">
+        <RelativeLayout
+            android:id="@+id/menu_methods"
+            android:background="@drawable/mtrl_ripple_action"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_list"
+                android:tint="?attr/iconPrimary"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <TextView
+            android:textSize="20sp"
+            android:ellipsize="middle"
+            android:id="@+id/filename"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:singleLine="true"
+            android:layout_weight="1"
+            style="@style/MD.Toolbar.Title"/>
+        <RelativeLayout
+            android:id="@+id/menu_previous"
+            android:background="@drawable/mtrl_ripple_action"
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_undo"
+                android:tint="?attr/iconPrimary"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/menu_next"
+            android:background="@drawable/mtrl_ripple_action"
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_redo"
+                android:tint="?attr/iconPrimary"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/center_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include layout="@layout/included_editor_view_wrap"/>
+        <include layout="@layout/included_find_panel"/>
+    </FrameLayout>
+</LinearLayout>
+
+

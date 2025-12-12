@@ -1,0 +1,6 @@
+package com.android.apksig.internal.apk.v1
+
+class V1SchemeConstants {
+    public static val MANIFEST_ENTRY_NAME = "META-INF/MANIFEST.MF"
+    public static val SF_ATTRIBUTE_NAME_ANDROID_APK_SIGNED_NAME_STR = "X-Android-APK-Signed"
+}

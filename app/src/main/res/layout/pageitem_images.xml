@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.gmail.heagoo.common.DynamicExpandListView
+        android:id="@+id/images_list"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="?attr/fade"
+        android:divider="@null"
+        android:requiresFadingEdge="vertical"/>
+</LinearLayout>
+
+

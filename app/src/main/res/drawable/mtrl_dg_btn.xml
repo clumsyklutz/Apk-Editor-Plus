@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <inset
+            android:insetLeft="4dp"
+            android:insetRight="4dp"
+            android:insetTop="6dp"
+            android:insetBottom="6dp">
+            <shape>
+                <corners android:radius="20dp"/>
+                <solid android:color="#50808080"/>
+                <padding
+                    android:left="16dp"
+                    android:top="4dp"
+                    android:right="16dp"
+                    android:bottom="4dp"/>
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <ripple android:color="@android:color/system_accent1_900">
+            <item>
+                <inset
+                    android:insetLeft="4dp"
+                    android:insetRight="4dp"
+                    android:insetTop="6dp"
+                    android:insetBottom="6dp">
+                    <shape>
+                        <corners android:radius="20dp"/>
+                        <solid android:color="?attr/googleButtonSolid"/>
+                        <padding
+                            android:left="16dp"
+                            android:top="4dp"
+                            android:right="16dp"
+                            android:bottom="4dp"/>
+                    </shape>
+                </inset>
+            </item>
+        </ripple>
+    </item>
+</selector>

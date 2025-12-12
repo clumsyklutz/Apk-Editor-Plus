@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:minWidth="56dp"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/app_name"
+        android:singleLine="true"
+        android:fontFamily="@font/google_sans_medium"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="?android:attr/textColorSecondary"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/version_number"
+        android:singleLine="true"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="?android:attr/textColorSecondary"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/build_resources"
+        android:singleLine="true"
+        android:textAllCaps="true"/>
+</LinearLayout>
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Número máximo de linhas no campo de texto do painel de busca -->
+    <integer name="md_max_lines_field">1</integer>
+
+</resources>
+
+
