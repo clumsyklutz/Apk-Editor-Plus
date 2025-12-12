@@ -2,15 +2,15 @@
 
 ## 📱 Sobre o Projeto
 
-**ApkEditorPlus** é um projeto open source de editor de APK para Android, desenvolvido em Kotlin. Este projeto foi decompilado e refatorado do código original em Java para uma versão mais moderna e atualizada.
+**ApkEditorPlus** é um projeto **open source** e **decompilado** de editor de APK para Android, desenvolvido em Kotlin. Este projeto foi decompilado e refatorado do código original em Java para uma versão mais moderna e atualizada.
 
 ## ⚠️ Status do Projeto
 
-Este projeto está em desenvolvimento ativo e ainda requer várias correções e melhorias. No entanto, as funcionalidades principais estão presentes, assim como as interfaces e bibliotecas essenciais para o funcionamento do aplicativo.
+Este projeto ainda precisa de **várias correções**, mas as **funcionalidades estão presentes**, assim como as **interfaces e bibliotecas essenciais** para o funcionamento do aplicativo.
 
 ## 🔄 Migração Java → Kotlin
 
-O projeto original foi desenvolvido em Java, mas foi completamente refeito em **Kotlin** para aproveitar:
+O projeto original era em **Java**, mas foi completamente refeito em **Kotlin** mais moderno e com **APIs mais atuais** do Android. A migração permite aproveitar:
 - Sintaxe mais moderna e concisa
 - APIs mais atuais do Android
 - Melhor integração com as bibliotecas modernas do ecossistema Android
@@ -42,8 +42,8 @@ O ApkEditorPlus oferece diversas funcionalidades para edição e manipulação d
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/ApkEditorPlus.git
-cd ApkEditorPlus
+git clone https://github.com/FabioSilva11/Apk-Editor-Plus.git
+cd Apk-Editor-Plus
 ```
 
 2. Abra o projeto no Android Studio
