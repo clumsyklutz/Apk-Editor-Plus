@@ -10,6 +10,108 @@
 
 Este projeto ainda precisa de **várias correções**, mas as **funcionalidades estão presentes**, assim como as **interfaces e bibliotecas essenciais** para o funcionamento do aplicativo.
 
+## 🚧 Aviso Importante aos Usuários
+
+## ⚠️ ATENÇÃO — LEIA ANTES DE UTILIZAR OU COMPILAR O PROJETO
+
+Este projeto NÃO está pronto para uso em produção.
+
+O ApkEditorPlus encontra-se em um estado intermediário de desenvolvimento e exige correções extensas em praticamente todo o código-fonte. Embora o projeto já tenha sido pré-editado, migrado e parcialmente refatorado, ainda são necessárias intervenções profundas para torná-lo totalmente funcional e estável.
+
+## 🔧 Situação Atual do Código
+
+O projeto necessita obrigatoriamente de:
+
+✅ Correção de erros de compilação
+
+✅ Atualização de bibliotecas desatualizadas
+
+✅ Adição de bibliotecas ausentes
+
+✅ Correção de imports quebrados
+
+✅ Ajustes em APIs Android modernas
+
+✅ Refatoração completa de múltiplos arquivos
+
+✅ Correções de incompatibilidades Kotlin
+
+✅ Revisão de lógica herdada do Java
+
+✅ Adequação ao Target SDK atual
+
+✅ Melhorias de performance e estabilidade
+
+
+⚠️ Não espere que o projeto compile ou funcione corretamente sem modificações.
+
+## 🔄 Sobre a Migração para Kotlin
+
+O projeto original foi escrito em Java e posteriormente decompilado e convertido para Kotlin.
+Essa conversão não é perfeita e gera inconsistências, como:
+
+Código Kotlin não idiomático
+
+Uso incorreto de null safety
+
+APIs obsoletas
+
+Estruturas herdadas do Java
+
+Problemas com lifecycle e permissões
+
+
+➡️ Uma refatoração manual completa ainda é necessária para alinhar o projeto às boas práticas atuais do Android e Kotlin.
+
+
+## 🧠 Público-Alvo do Projeto
+
+Este projeto é fortemente recomendado apenas para:
+
+Desenvolvedores Android intermediários ou avançados
+
+Pessoas interessadas em estudo de engenharia reversa
+
+Aprendizado de refatoração Java → Kotlin
+
+Estudo de ferramentas de edição de APK
+
+Contribuidores open source
+
+
+## 🚫 Não é recomendado para iniciantes.
+
+
+🧪 Estado do Projeto
+
+✔ Interfaces presentes
+
+✔ Estrutura base existente
+
+✔ Funcionalidades visíveis
+
+❌ Código instável
+
+❌ Dependências incompletas
+
+❌ Build não garantido
+
+
+## 🧩 Contribuições são Essenciais
+
+Este projeto depende da comunidade para evoluir. Contribuições são muito bem-vindas, especialmente em:
+
+Refatoração Kotlin
+
+Atualização de dependências
+
+Correções de bugs
+
+Modernização de APIs
+
+Melhoria da arquitetura
+
+
 ## 🔄 Migração Java → Kotlin
 
 O projeto original era em **Java**, mas foi completamente refeito em **Kotlin** mais moderno e com **APIs mais atuais** do Android. A migração permite aproveitar:
